@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+       body{
+	         background-color:cyan;
+			}
+        .th{
+             color:red;
+            }
+        .tr{
+             color:orange;
+            }
+		.td{ 
+             color:white;
+            }
+        #table{
+             color:green;
+             }
+        .caption{
+             color:purple;
+            }			 
+</style>			 
+         			
+</head>
+<body>
+<table id="table" border ="4" size ="400" bordercolor="brown">
+<caption class="caption" >student table</caption>
+<tr style="background-color:yellow">
+<th rowspan="2">student name </th><!-- student name is common for 2 rows -->
+<th colspan="4">student marks </th><!-- student marks is common for 3 columns -->
+</tr>
+<tr class="tr"><th>sub1</th><th>sub2</th><th>sub3</th><th>total</th></tr>
+<tr><td>deloitte</td><td>55</td><td>56</td><td>57</td><td class="td">168</td></tr>
+<tr><td>deloitte</td><td>55</td><td>56</td><td>57</td><td class="td">168</td></tr>
+<tr><td>deloitte</td><td>55</td><td>56</td><td>57</td><td class="td">168</td></tr>
+</table>
+</body>
+</html>
